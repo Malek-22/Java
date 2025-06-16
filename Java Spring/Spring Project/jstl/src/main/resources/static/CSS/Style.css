@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+
+}
+
+h1{
+    color: aqua;
+}
+
+.malek{
+    color: blueviolet;
+}
