@@ -1,0 +1,71 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(90deg, #357248, #53cc55);
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  .gold-count {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffd700;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    margin-bottom: 25px;
+  }
+  
+  button {
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    background-color: #cc0000d3;
+    transform: scale(1.03);
+  }
+  
+  form {
+    display: inline-block;
+    margin: 12px;
+  }
+  
+  .activities {
+    background-color: rgba(255, 255, 255, 0.12);
+    padding: 18px;
+    border-radius: 12px;
+    width: 55%;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+  }
+  
+  .activities p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px;
+    border-left: 5px solid #ff9900;
+    margin-bottom: 6px;
+    transition: background 0.3s, padding-left 0.3s;
+  }
+  
+  .activities p:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding-left: 14px;
+  }
+  
+  .warning {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff4444;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    margin-top: 25px;
+  }
+  
